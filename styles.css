@@ -49,6 +49,9 @@ h2 {
     top: 50%;
     left: 5px;
     transform: translateY(-50%);
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
 }
 
 .input-group input {
@@ -94,3 +97,53 @@ button {
     margin: 15px 0;
 }
 
+.signUp-link p {
+    color: #fff;
+}
+
+.signUp-link p a {
+    color: #f4157e;
+    text-decoration: none;
+    font-weight: 500; 
+}
+
+
+.banner2 {
+    height: 50px;
+}
+
+.signUp-link p a:hover {
+    text-decoration: underline;
+}
+
+.social-platform {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    margin: 15px 6px 0;
+    transition: .3s;
+}
+
+.social-icons a:hover {
+    background: #fff;
+}
+
+.social-icons a i {
+    color: #fff;
+    font-size: 14px;
+}
+
+.social-icons a:hover i {
+    color: rgba(0,0,0,.3);
+}

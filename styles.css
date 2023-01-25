@@ -52,6 +52,7 @@ h2 {
     font-size: 16px;
     color: #fff;
     pointer-events: none;
+    transition: .5s;
 }
 
 .input-group input {
@@ -63,6 +64,11 @@ h2 {
     background: transparent;
     border: none;
     outline: none;
+}
+
+.input-group input:focus~label,
+.input-group input:valid~label {
+    top: -5px;
 }
 
 .remember {
